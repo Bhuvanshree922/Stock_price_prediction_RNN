@@ -2,21 +2,8 @@
 
 A comprehensive machine learning project that leverages Recurrent Neural Networks (RNN) to predict stock prices for major technology companies using historical market data.
 
-## 📋 Table of Contents
-- [Overview](#overview)
-- [Dataset](#dataset)
-- [Features](#features)
-- [Model Architecture](#model-architecture)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
-- [Project Structure](#project-structure)
-- [Technical Implementation](#technical-implementation)
-- [Performance Metrics](#performance-metrics)
-- [Contributing](#contributing)
-- [License](#license)
 
-## 🔍 Overview
+## Overview
 
 This project implements a stock price prediction system using Recurrent Neural Networks (RNN) to forecast the closing prices of four major technology companies:
 
@@ -36,7 +23,7 @@ Stock market data is inherently sequential, making it an ideal candidate for RNN
 - **Investment Insights**: Data-driven predictions to support financial decision-making
 - **Market Analysis**: Comparative analysis across multiple technology stocks
 
-## 📊 Dataset
+## Dataset
 
 ### Data Description
 
@@ -55,7 +42,7 @@ The project uses historical stock data from four technology companies spanning *
 - **NYSE** (New York Stock Exchange)
 - **NASDAQ** (National Association of Securities Dealers Automated Quotations)
 
-## ✨ Features
+## Features
 
 ### Core Functionality:
 - **Multi-company Analysis**: Simultaneous prediction for 4 tech companies
@@ -70,7 +57,7 @@ The project uses historical stock data from four technology companies spanning *
 - **Cross-company Learning**: Leverage patterns across different stocks
 - **Interactive Analysis**: Jupyter notebook environment for exploration
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 ### 1. Simple RNN Model
 - Basic recurrent neural network implementation
@@ -90,7 +77,7 @@ The project uses historical stock data from four technology companies spanning *
 - **Loss Function**: Mean Squared Error (MSE)
 - **Optimizer**: Adam optimizer with learning rate scheduling
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.7 or higher
@@ -195,7 +182,7 @@ model.fit(
 )
 ```
 
-## 📈 Results
+## Results
 
 ### Performance Metrics Achieved:
 
@@ -216,7 +203,7 @@ model.fit(
 - **Performance Charts**: MSE and MAE progression during training
 - **Zoomed Analysis**: Detailed view of recent predictions
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Stock_price_prediction_RNN/
@@ -232,7 +219,7 @@ Stock_price_prediction_RNN/
     └── MSFT_stock_data.csv
 ```
 
-## 🔧 Technical Implementation
+## Technical Implementation
 
 ### Data Processing Pipeline:
 
@@ -326,7 +313,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 🚀 Getting Started Quick Guide
+## Getting Started Quick Guide
 
 1. **Clone and Setup:**
    ```bash
@@ -350,6 +337,3 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Note**: This project is for educational and research purposes. Stock market predictions involve significant risks, and this model should not be used as the sole basis for investment decisions.
-
-For questions or support, please open an issue in the GitHub repository.
